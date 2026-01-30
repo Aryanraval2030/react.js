@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from './Header/Header'
+import TodoInput from './components/TodoInput'
 
 
 function App() {
   return (
     <div>
-      <Header />
+      <TodoInput />
     </div>
   )
 }
