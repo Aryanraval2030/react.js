@@ -1,5 +1,5 @@
 import './Aside.css'
-// import Card from './Card'
+import Card from './card.jsx'
 
 function Aside() {
 
@@ -25,19 +25,11 @@ function Aside() {
                     </ul>
                 </aside>
 
-                <div className=''>
+                <div>
                     <h1>Movies</h1>
                     <div className='rendem'>
-                        {/* <Card  moviname={movie.name} />
                         <Card />
-                        <Card />
-                        <Card />
-                        <Card /> */}
-                        {/* {movies.map((movie) => (
-                            <Card key={movie.id} moviname={movie.name} />
-                        ))} */}
                     </div>
-
                 </div>
             </div>
         </div>

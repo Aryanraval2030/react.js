@@ -19,9 +19,10 @@ aside {
     flex-direction: column;
     justify-content: space-around;
 }
-
 .rendem {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px;
+  display: flex;
+  flex-wrap: wrap;     /* side by side + next row */
+  gap: 16px;           /* cards ke beech space */
+  width: 100%;
 }
+
