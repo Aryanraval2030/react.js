@@ -1,7 +1,23 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
 
 body {
-  @apply bg-slate-950 text-white;
+  background-color: black;
+
+}
+
+li a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
 }
