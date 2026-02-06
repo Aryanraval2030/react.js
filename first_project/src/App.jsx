@@ -1,12 +1,12 @@
 import './App.css'
-import Aside from './components/Aside'
 import Navbar from './components/Navbar'
+import Section from './components/Section'
 
 function App() {
     return (
         <div>
             <Navbar />
-            <Aside />
+            <Section />
         </div>
     )
 }

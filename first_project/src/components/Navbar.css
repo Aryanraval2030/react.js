@@ -1,7 +1,7 @@
 #header {
-    background-color: rgb(28, 28, 28);
     height: 50px;
     padding: 0 10px;
+    border-bottom: 2px solid rgb(16, 13, 13);
 }
 
 #header nav {
@@ -19,6 +19,8 @@ nav ul {
 
 #input_search {
     width: clamp(30vw, 60vw, 700px);
-    padding: 8px 8px 8px 2px;
-    color: black;
+    padding: 8px 8px 8px 5px;
+    color: rgb(209, 209, 209);
+    border: none;
+    border-radius: 5px;
 }
