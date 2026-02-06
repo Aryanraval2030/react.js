@@ -1,0 +1,30 @@
+header {
+    height: 60px;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+header nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    font-weight: 900;
+font-size: 20px;
+}
+
+li a {
+    color: black;
+}

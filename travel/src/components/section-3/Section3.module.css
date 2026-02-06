@@ -1,0 +1,44 @@
+.section3 {
+    margin-top: 80px;
+    padding: 0px 50px;
+}
+
+.inrsecond1 .icon,
+.inrsecond2 .icon,
+.inrsecond3 .icon {
+    display: inline-block;
+    background-color: rgb(48, 48, 221);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.inrsecond1,
+.inrsecond2,
+.inrsecond3 {
+    height: 180px;
+    width: 300px;
+    border: 2px solid rgb(215, 213, 213);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inrsecond1 h3,
+.inrsecond2 h3,
+.inrsecond3 h3 {
+    margin-top: 20px;
+}
+
+
+.btn3 {
+    margin-top: 20px;
+    float: right;
+}

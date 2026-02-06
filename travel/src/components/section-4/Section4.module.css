@@ -1,0 +1,82 @@
+.section4 {
+    margin-top: 80px;
+    padding: 0px 20px;
+    display: flex;
+    height: 80vh;
+}
+
+
+.section4 .first {
+    width: 50%;
+}
+
+.section4 .first {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .firstinr {
+    display: flex;
+    justify-content: center;
+    width: clamp(400px, 400px, 400px);
+    height: clamp(50vh, 50vh, 50vh);
+    flex-wrap: wrap;
+}
+
+.firstinr div:nth-child(2) {
+    margin-top: 20px;
+}
+
+.firstinr div:nth-child(3) {
+    margin-left: -40px;
+    margin-top: -16px;
+}
+
+.firstinr div:nth-child(4) {
+    margin-left: 0px;
+    margin-top: -27px;
+}
+
+
+
+
+.first .firstimg1 img {
+    height: 200px;
+    width: 200px;
+}
+
+.first .firstimg2 img {
+    height: 170px;
+    width: 170px;
+}
+
+.first .firstimg3 img {
+    height: 150px;
+    width: 150px;
+}
+
+.first .firstimg4 img {
+    height: 90px;
+    width: 90px;
+}
+
+.firstimg1 img,
+.firstimg2 img,
+.firstimg3 img,
+.firstimg4 img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second{
+    margin: auto auto;
+}
+.second h1{
+    margin: 0px 0px 10px 0px;
+}
+.second p{
+    margin-bottom: 10px;
+}

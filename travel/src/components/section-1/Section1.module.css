@@ -1,0 +1,27 @@
+.sectionFirst {
+    display: flex;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.first,
+.second {
+    width: 50vw;
+}
+
+.second img {
+    height: 100%;
+    width: 100%;
+}
+
+.first h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.sectionFirst .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,36 @@
+.section2 {
+    margin-top: 80px;
+    display: flex;
+    padding: 0px 20px;
+
+}
+
+.section2 div {
+    width: 50vw;
+}
+
+.first img {
+    height: 100%;
+    width: 100%;
+}
+
+.second {
+    padding: 0px 0px 0px 10px;
+}
+.second h1{
+    margin-bottom: 10px;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.boxes div {
+    height: 90px;
+    width: 90px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
