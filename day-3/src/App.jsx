@@ -25,12 +25,15 @@ function App() {
 
   return (
 
+
     <div>
+
       <h1>{rightCount}</h1>
       <button onClick={increment}>increment</button>
       <button onClick={decrement}>dicrement</button>
       <button onClick={jump}>jump by 5</button>
       <button onClick={jumpDecrement}>jump by -5</button>
+      
     </div>
   )
 }
