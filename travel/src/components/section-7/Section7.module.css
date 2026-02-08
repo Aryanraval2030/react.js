@@ -1,0 +1,37 @@
+.section7 {
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 5px;
+    background-color: rgb(51, 51, 243);
+    text-align: center;
+    margin: 80px 20px 0px 20px;
+}
+
+.inputbox {
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-self: center;
+    gap: 5px;
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.inputbox input {
+    padding: 15px 10px 15px 10px;
+    border-radius: 30px;
+    border: none;
+    width: 30vw;
+}
+
+.inputbox .btn {
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(58, 58, 242);
+    color: white;
+}

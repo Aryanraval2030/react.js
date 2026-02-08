@@ -1,0 +1,31 @@
+.section5 {
+    padding: 0px 20px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.section5 .first {
+    width: 50%;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.inrsecond1 {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(162, 162, 233);
+    border-right: 2px solid rgb(162, 162, 233);
+    border-radius: 10px;
+    padding-left: 5px;
+    width: 75%;
+}
+
+.section5 .second {
+    width: 50%;
+    padding: 10px;
+}
+.inrsecond1 p:first-child{
+    font-weight: 800;
+}
+.inrsecond1 p:nth-child(2){
+    font-weight: 500;
+}

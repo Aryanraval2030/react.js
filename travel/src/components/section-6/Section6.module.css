@@ -1,0 +1,19 @@
+.section6 {
+    margin-top: 80px;
+    padding: 0px 20px;
+    height: 50vh;
+}
+
+.first {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first img {
+    height: 100px;
+    width: 150px;
+    border: 2px solid rgb(248, 199, 199);
+    border-radius: 10px;
+}
