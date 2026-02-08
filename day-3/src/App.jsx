@@ -1,15 +1,18 @@
+import './App.css'
+
 
 function App() {
 
-  let entered = (values) => {
-    console.log(values.target.value)
-  }
 
-``
+
+  const mousemove = (elem) => {
+    console.log(elem.clientX)
+    console.log(elem.clientY)
+  }
   return (
 
     <div>
-      <input onChange={entered} type="text" placeholder="Enter a string..." />
+      <div onMouseMove={mousemove} className='box'></div>
     </div>
   )
 }
