@@ -1,21 +1,36 @@
+import { useState } from 'react'
 import './App.css'
 
 
 function App() {
 
-  const pageScrolling = (elem) => {
+  const [rightCount, incrementCount] = useState(0)
+
+  function increment() {
+    incrementCount(rightCount + 1)
   }
 
 
+  function decrement() {
+    incrementCount(rightCount - 1)
+  }
+
+  function jump() {
+    incrementCount(rightCount + 5)
+  }
+
+  function jumpDecrement() {
+    incrementCount(rightCount - 5)
+  }
 
   return (
 
-    <div onWheel={(elem) => {
-      pageScrolling(elem.deltaY)
-    }}>
-      <div className='box1'></div>
-      <div className='box2'></div>
-      <div className='box3'></div>
+    <div>
+      <h1>{rightCount}</h1>
+      <button onClick={increment}>increment</button>
+      <button onClick={decrement}>dicrement</button>
+      <button onClick={jump}>jump by 5</button>
+      <button onClick={jumpDecrement}>jump by -5</button>
     </div>
   )
 }
