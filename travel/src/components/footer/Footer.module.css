@@ -1,0 +1,36 @@
+.footer {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+
+.logoname {
+    margin: auto 0;
+    float: left;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+
+
+.ftrbox a {
+    color: rgb(30, 16, 101);
+    text-decoration: none;
+    display: block;
+    line-height: 25px;
+}
+
+.ftrbox p {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.icons{
+    cursor: pointer;
+    margin: 0px 5px;
+}
