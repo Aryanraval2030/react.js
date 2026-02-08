@@ -1,7 +1,15 @@
-.box{
-    height: 400px;
-    width: 400px;
-    background-color: orange;
-    margin: 20px;
-    border: 2px solid black;
+.box1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+.box2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+}
+.box3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
 }

@@ -3,16 +3,19 @@ import './App.css'
 
 function App() {
 
-
-
-  const mousemove = (elem) => {
-    console.log(elem.clientX)
-    console.log(elem.clientY)
+  const pageScrolling = (elem) => {
   }
+
+
+
   return (
 
-    <div>
-      <div onMouseMove={mousemove} className='box'></div>
+    <div onWheel={(elem) => {
+      pageScrolling(elem.deltaY)
+    }}>
+      <div className='box1'></div>
+      <div className='box2'></div>
+      <div className='box3'></div>
     </div>
   )
 }
