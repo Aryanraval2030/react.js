@@ -9,7 +9,9 @@ function App() {
     setcount(count + 1)
   }
   const unaddcount = () => {
-    setcount(count - 1)
+    if (count > 0) {
+      setcount(count - 1)
+    }
   }
   const reset = () => {
     setcount(0)
@@ -18,7 +20,7 @@ function App() {
   return (
     <div>
       <div className='container'>
-        <h1>number counter</h1>
+        <h1 className='heading'>number counter</h1>
         <div className='round'>{count}</div>
         <div className='btn'>
           <button className='add' onClick={addcount}>add</button>
