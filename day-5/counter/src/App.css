@@ -9,13 +9,15 @@
   flex-direction: column;
   justify-self: center;
   margin-top: 100px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .round {
   height: 100px;
   width: 100px;
   border-radius: 15px;
-  corner-shape:bevel;
+  corner-shape: bevel;
   box-shadow: rgba(24, 24, 24, 0.725) 0px 50px 100px -20px, rgba(0, 0, 0, 0.642) 0px 30px 60px -30px, rgba(0, 0, 0, 0.678) 0px -2px 6px 0px inset;
   display: flex;
   justify-content: center;
@@ -24,22 +26,27 @@
 }
 
 button {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: none;
   padding: 10px 15px;
   border-radius: 5px;
+  font-weight: 700;
   background-color: #444;
   margin: 0px 5px 0px 0px;
-  color: white;
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
 }
 
+
 .glitch span {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
 .glitch:hover {
   animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
-  border: 1px solid red;
 }
 
 
@@ -69,6 +76,22 @@ button {
   }
 }
 
-.heading{
+.heading {
   text-shadow: 2px 3px 3px rgb(111, 110, 110);
+}
+
+.add {
+  transition-duration: 0.1s;
+}
+
+.unadd {
+  transition-duration: 0.1s;
+}
+
+.add:hover {
+  transform: scale(1.1);
+}
+
+.unadd:hover {
+  transform: scale(1.1);
 }
