@@ -64,7 +64,7 @@ function App() {
           <p>here for vibes</p>
         </div>
 
-        <div className='otrbox'>
+        <div className='otrbox' >
           <button className='follow' onClick={handleFollow}>
             {isFollowing ? "Unfollow" : "Follow"}
           </button>

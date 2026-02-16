@@ -22,7 +22,10 @@ function App() {
         <div className='round'>{count}</div>
         <div className='btn'>
           <button className='add' onClick={addcount}>add</button>
-          <button className='reset' onClick={reset}>reset</button>
+          {/* <button >reset</button> */}
+          <button class="glitch" onClick={reset}>
+            <span>reset</span>
+          </button>
           <button className='unadd' onClick={unaddcount}>unadd</button>
         </div>
       </div>
