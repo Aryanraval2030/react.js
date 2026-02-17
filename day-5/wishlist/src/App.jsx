@@ -55,9 +55,9 @@ function App() {
 
           </div>
           <div className='w-2/4 mt-14'>
-            <h1>classic leace lily</h1>
+            <h1 className='text-3xl py-2'>classic leace lily</h1>
             <h5>populer house plant</h5>
-            <h1>$18</h1>
+            <h1 className='text-3xl py-2'>$18</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               quaerat magnam modi sit eius. Cumque porro a placeat ad!</p>
 
