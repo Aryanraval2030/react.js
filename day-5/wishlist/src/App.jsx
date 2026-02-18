@@ -60,7 +60,6 @@ function App() {
             <h1 className='text-3xl py-2'>$18</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               quaerat magnam modi sit eius. Cumque porro a placeat ad!</p>
-
             <button className='border border-black rounded-md p-1 mt-9' onClick={addCarts}>about to cart</button>
             <button className='border border-black rounded-md p-1 mx-1 mt-9' onClick={likes}>wishlist</button>
           </div>
