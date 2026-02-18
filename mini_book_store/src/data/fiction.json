@@ -1,5 +1,4 @@
-{
-  "fiction": [
+ [
     {
       "title": "Harry Potter and the Philosophers Stone",
       "author": "JK Rowling",
@@ -43,4 +42,3 @@
       "img": "https://m.media-amazon.com/images/I/41jNoiUgf3L.jpg"
     }
   ]
-}
