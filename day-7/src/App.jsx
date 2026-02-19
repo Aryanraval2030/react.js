@@ -1,13 +1,12 @@
 import './App.css'
+import Signup from './component/Signup'
 
 function App() {
 
   return (
     <>
-      <button >
-        Click
-      </button>
 
+      <Signup />
     </>
   )
 }
