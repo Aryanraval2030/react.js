@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 1rem 0px 1rem;
+    height: 14vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(8px);
+}
+
+.box {
+    display: flex;
+    gap: 6rem;
+}
+
+.logo {
+    text-shadow: 2px 2px 1px #58a6ff;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+li a:hover {
+    color: #58a6ff;
+    transition-duration: 0.2s;
+    letter-spacing: 1.4px;
+}
+
+nav li {
+    min-width: 90px;
+    text-align: center;
+}
