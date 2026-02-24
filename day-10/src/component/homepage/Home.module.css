@@ -1,5 +1,5 @@
 .container {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     margin-top: 15vh;
@@ -13,12 +13,42 @@
     flex-direction: column;
     padding-top: 7%;
 }
-.homeimg{
+
+.homeimg {
     align-items: end;
 }
-.homeimg img{
+
+.homeimg img {
     height: 250px;
     width: 250px;
     box-shadow: 1px 2px 10px blue;
     border-radius: 50%;
+}
+
+@media (max-width:667px) {
+    .inrhild p {
+        font-size: 1rem;
+    }
+
+    .inrhild h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .inrhild {
+        width: 100%;
+    }
+
+    .homeimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeimg img {
+        border-radius: 10px;
+    }
 }

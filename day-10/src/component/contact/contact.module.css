@@ -1,0 +1,77 @@
+
+.section {
+  background-color: #0f172a; 
+  color: #fff;
+  padding: 11rem 1.5rem 4rem 1.5rem; 
+}
+
+.container {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem; 
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.heading span {
+  color: #06b6d4;
+}
+
+.formWrapper {
+  background-color: #0f172a;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #9ca3af; 
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background-color: #1f2937; 
+  border: 1px solid #374151; 
+  color: #fff;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #06b6d4; 
+}
+
+.textarea {
+  resize: none;
+  min-height: 6rem;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #06b6d4; 
+  color: #000;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #22d3ee;
+}

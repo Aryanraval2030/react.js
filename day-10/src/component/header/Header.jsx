@@ -1,4 +1,6 @@
 import style from "./Header.module.css"
+import { CiMenuFries } from "react-icons/ci";
+
 
 function Header() {
   return (
@@ -8,15 +10,18 @@ function Header() {
 
         <nav>
           <ul className={style.box}>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">skills</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </nav>
+        <a href=""><button className={style.btn}>resume</button></a>
+
+        <CiMenuFries className={style.icon} />
+        
       </header>
 
-      
+
     </>
   )
 }
