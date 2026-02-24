@@ -1,4 +1,4 @@
-import styles from "./Work.module.css"
+import styles from "./work.module.css"
 import umaImg from "../../assets/uma.jpg"
 import vibeImg from "../../assets/vibenova.jpg"
 import marketingImg from "../../assets/marketing.jpg"
