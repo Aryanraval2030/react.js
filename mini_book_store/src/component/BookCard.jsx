@@ -21,8 +21,7 @@ function BookCard() {
                 </button>
                 <h1 className="font-semibold text-2xl mb-2">{bkFilter ? "Fiction Books" : "Non-Fiction Book"}</h1>
 
-
-                <div onClick={showBook} className="flex justify-evenly">
+                <div className="flex justify-evenly">
                     {bkFilter ? <Fiction /> : <Nonfiction />}
                 </div>
             </div>
