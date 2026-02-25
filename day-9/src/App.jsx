@@ -22,13 +22,11 @@ function App() {
       ...prev,
       [name]: value
     }))
-
-    
   }
 
-  function handleReload(e) {
+  function handleReload() {
     localStorage.setItem("userdata", JSON.stringify(data))
-    setdata(allData)
+    // setdata(allData)
   }
 
 
