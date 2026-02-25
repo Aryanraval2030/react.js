@@ -27,6 +27,9 @@ function App() {
   function handleReload() {
     localStorage.setItem("userdata", JSON.stringify(data))
     // setdata(allData)
+
+
+    
   }
 
 
