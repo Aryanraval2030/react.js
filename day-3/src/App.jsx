@@ -5,7 +5,6 @@ import './App.css'
 function App() {
 
   const [rightCount, incrementCount] = useState(0)
-
   function increment() {
     incrementCount(rightCount + 1)
   }
