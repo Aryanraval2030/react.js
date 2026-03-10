@@ -19,7 +19,9 @@ function App() {
   };
 
   const filternames = array.filter((num) => {
-    return searchterm !== "" && num.toLowerCase().includes(searchterm.toLowerCase());
+    return (
+      searchterm !== "" && num.toLowerCase().includes(searchterm.toLowerCase())
+    );
   });
 
   return (
