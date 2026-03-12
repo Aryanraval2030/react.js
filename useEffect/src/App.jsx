@@ -24,10 +24,10 @@ function App() {
       </button>
       {get.map((items) =>  {
        return (
-        <div key={items.id}>
-          <p>{items.id}</p>;
-          <p>{items.title}</p>;
-          <p>{items.price}</p>;
+        <div key={items.id} className="border-2 border-black flex gap-2 py-2 my-2">
+          <p>{`items id = ${items.id}`}</p>;
+          <p>{`items title = ${items.title}`}</p>;
+          <p>{`items price = ${items.price}`}</p>;
         </div>
        )
       })}
