@@ -1,0 +1,13 @@
+components
+   Header
+   ProductCard
+   Shimmer
+
+hoc
+   withBestSeller
+
+pages
+   Producthome
+
+hooks
+   useProducts (React Query)
